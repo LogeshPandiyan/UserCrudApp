@@ -1,0 +1,51 @@
+
+
+
+
+.toggle-switch {
+  width: 46px;
+  height: 20px;
+  border-radius: 30px;
+  background: #ccc;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.toggle-switch .switch-handle {
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: left 0.3s;
+}
+
+.toggle-switch.active {
+  background: #0d6efd; /* Bootstrap blue */
+}
+
+.toggle-switch.active .switch-handle {
+  left: 28px;
+}
+
+.user-role{
+  background-color: aliceblue;
+  padding:3px;
+  border-radius: 10px;
+  border: 1px solid rgb(227, 240, 252);
+}
+
+.user-profile{
+  background-color: rgb(232, 229, 229);
+  padding: 6px;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+}
+
+.my-user-details{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
