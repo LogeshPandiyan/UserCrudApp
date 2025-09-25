@@ -1,16 +1,48 @@
-# React + Vite
+# User Management System (React CRUD App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **User Management System** built with **React.js** and **Bootstrap** that allows you to **Add, Edit, Delete, and Promote users**. The project features a responsive table with a mobile-style toggle button for the "Promote" column, which updates the user status (Active/Inactive).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔹 Features
 
-## React Compiler
+- **Add New User**: Open a popup form to add a new user with fields:  
+  - Username  
+  - User Role  
+  - Social Profile URL  
+  - Rating  
+  - Last Login  
+  - Promote toggle
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- **Edit User**: Update existing user details.  
 
-## Expanding the ESLint configuration
+- **Delete User**: Remove a single user from the list.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Delete All Users**: Remove all users at once.  
+
+- **Promote Toggle**: Mobile-style toggle button to promote users:  
+  - ON → Blue → Status = Active  
+  - OFF → Gray → Status = Inactive  
+
+- **User Count**: Shows total number of users at the top-left.  
+
+- **Table Settings Button**: Placeholder button for future settings.  
+
+- **Responsive UI**: Built with Bootstrap for mobile-friendly layout.  
+
+---
+
+## 🔹 Technologies Used
+
+- **Frontend**: React.js  
+- **Styling**: Bootstrap 5  
+- **Icons & UI**: Custom CSS for toggle button  
+
+---
+
+## 🔹 Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/LogeshPandiyan/UserCrudApp.git
