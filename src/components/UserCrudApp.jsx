@@ -9,7 +9,6 @@ export default function UserCRUD() {
   const [form, setForm] = useState({
 
 
-
   // Step :2 set the initial values for user details  
     username: "",
     userrole: "",
