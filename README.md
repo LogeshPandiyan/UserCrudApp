@@ -22,7 +22,8 @@ A simple **User Management System** built with **React.js** and **Bootstrap** th
 
 - **Promote Toggle**: Mobile-style toggle button to promote users:  
   - ON → Blue → Status = Active  
-  - OFF → Gray → Status = Inactive  
+  - OFF → Gray → Status = Inactive
+  - 
 
 - **User Count**: Shows total number of users at the top-left.  
 
